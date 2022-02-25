@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Me?</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <h2>🔢 Guess The Random Number 🔢</h2>
+        <h3>You Have to Think between [1 , 100]</h3>
+        <p>Be Accurate ! You've got 10 chances 😉</p>
+        <br>
+        <p style="font-weight:bold;">Enter Your Guess </p>
+        <input type="text" id="guess">
+        <br>
+        <button id="btn" onclick="play()">GUESS</button>
+        <p id="noOfGuess">Number of Guesses: 0</p> 
+        <p id="guessedNum">Guessed Number are: None</p>
+        <p id="message"></p>
+    </div>
+    <!-- Script -->
+    <script src="index.js"></script>
+</body>
+
+</html>
