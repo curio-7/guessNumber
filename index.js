@@ -33,7 +33,7 @@ function play(){
             msg.textContent = "Guessed Numbers are: " + guessedNumber;
         }
         else if(userGuess == answer){
-            nog.textContent = "Yay! You Won."
+            nog.textContent = "Yay! You Won. Refresh to Restart the Game !"
             gn.textContent = "No. of Guesses: " + noOfGuesses + ".     The Number was: " + answer;
             msg.textContent = "Guessed Numbers are: " + guessedNumber;
             document.getElementById("btn").disabled = true;
