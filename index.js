@@ -16,7 +16,7 @@ function play(){
         noOfGuesses += 1;
         if(noOfGuesses == 10){
             nog.textContent = "Game Over ! You Lost... Refresh to Play Again :)";
-            gn.textContent = "No. of Guesses: " + noOfGuesses;
+            gn.textContent = "No. of Guesses: " + noOfGuesses + ".     The Number was: " + answer;
             msg.textContent = "Guessed Numbers are: " + guessedNumber;
             document.getElementById("btn").disabled = true;
 
